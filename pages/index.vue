@@ -46,12 +46,12 @@
         </form>
       </div>
       <div
-        class="mockup-window border-base-300 mt-32 border w-3/4 xl:w-1/3 aspect-video mx-auto bg-slate-700/60 fade-in-third"
+        class="mockup-window border-base-300 mt-32 border w-3/4 xl:w-1/3 aspect-[16/11] mx-auto bg-slate-700/60 fade-in-third"
       >
         <div
-          class="border-base-300 flex justify-center border-t px-4 py-16 bg-slate-700 h-full"
+          class="border-base-300 flex justify-center  bg-slate-700 h-full"
         >
-          Hello!
+          <img class="h-full w-full" src="/public/Desktop-gray.png" alt="">
         </div>
       </div>
       <div
@@ -189,7 +189,7 @@
       </div>
       <div class="py-12">
         <div
-          class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-center text-white px-4"
+          class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 text-center text-white px-4"
         >
           <!-- First Card -->
           <div class="flex flex-col items-center">
@@ -204,28 +204,7 @@
           </div>
 
           <!-- Second Card -->
-          <div class="flex flex-col items-center">
-            <div class=" rounded-full mb-4 overflow-hidden">
-              <!-- Up Arrow Icon (SVG or Font Awesome) -->
-              <img src="/public/shopifyceo.png" class="w-32" alt="">
-            </div>
-            <h3 class="text-lg md:text-xl font-bold">Tobias Lütke <br><span class="text-white/60 font-light">CEO, Shopify</span></h3>
-            <p class="text-md md:text-base text-gray-400 mt-2 md:mt-4">
-              "Love it"
-            </p>
-          </div>
-
-          <!-- Third Card -->
-          <div class="flex flex-col items-center">
-            <div class=" rounded-full mb-4 overflow-hidden">
-              <!-- Up Arrow Icon (SVG or Font Awesome) -->
-              <img src="/public/shopifyceo.png" class="w-32" alt="">
-            </div>
-            <h3 class="text-lg md:text-xl font-bold">Tobias Lütke <br><span class="text-white/60 font-light">CEO, Shopify</span></h3>
-            <p class="text-md md:text-base text-gray-400 mt-2 md:mt-4">
-              "Love it"
-            </p>
-          </div>
+          <img class="rounded-xl w-auto" src="/public/tobilinkedin.jpg" alt="">
         </div>
       </div>
     </section>
