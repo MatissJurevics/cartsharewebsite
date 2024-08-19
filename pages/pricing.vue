@@ -7,7 +7,7 @@
       currently have 3 tiers.
     </p>
     <div class="flex flex-row justify-around mt-24">
-      <div class="card card-compact bg-base-100 w-96 shadow-xl">
+      <div class="card card-compact bg-gray-900 w-96 shadow-xl">
         
         <div class="card-body">
           <h2 class="card-title">Basic Tier</h2>
@@ -19,7 +19,7 @@
           
         </div>
       </div>
-      <div class="card card-compact bg-base-100 w-96 shadow-xl">
+      <div class="card card-compact bg-gray-900 w-96 shadow-xl">
         
         <div class="card-body">
           <h2 class="card-title">Plus Tier</h2>
@@ -30,7 +30,7 @@
           
         </div>
       </div>
-      <div class="card card-compact bg-base-100 w-96 shadow-xl">
+      <div class="card card-compact bg-gray-900 w-96 shadow-xl">
         <div class="card-body">
           <h2 class="card-title">Premium</h2>
           <div class="divider"></div>
@@ -39,5 +39,8 @@
         </div>
       </div>
     </div>
+    <p class="text-md mt-8 w-72 ml-auto font-light">
+        * The percentage of the invited order is the value of the cart of all invited users which were brought to the store as a result of cartshare.
+    </p>
   </main>
 </template>
