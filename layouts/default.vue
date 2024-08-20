@@ -30,7 +30,7 @@
         </ul>
       </div>
       <div class="navbar-end">
-        <a href="https://calendly.com/fuller-liam07/cartshare-intro-demo-liam-fuller" class="btn bg-[#ff5470] hover:bg-[#ff5470]/80 outline-none border-none text-white cursor-pointer hidden md:block">Book a Call</a>
+        <a href="https://calendly.com/fuller-liam07/cartshare-intro-demo-liam-fuller" class="btn bg-[#ff5470] hover:bg-[#ff5470]/80 outline-none border-none text-white cursor-pointer hidden md:flex md:justify-center md:items-center">Book a Call</a>
       </div>
     </div>
 <slot />
