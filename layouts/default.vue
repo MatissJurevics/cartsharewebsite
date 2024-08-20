@@ -4,7 +4,7 @@
   <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
   <div class="drawer-content flex flex-col">
     <!-- Navbar -->
-    <div class="navbar bg-none w-full px-16 z-10">
+    <div class="navbar bg-none w-full px-6 md:px-16 z-10">
       <div class="flex-none lg:hidden">
         <label for="my-drawer-3" aria-label="open sidebar" class="btn btn-square btn-ghost">
           <svg
@@ -20,7 +20,7 @@
           </svg>
         </label>
       </div>
-      <nuxt-link to="/" class="mx-2 flex-1 px-2 navbar-start text-2xl font-bold">CartShare</nuxt-link>
+      <nuxt-link to="/" class="mx-2 flex-1 px-2 navbar-center md:navbar-start text-2xl font-bold">CartShare</nuxt-link>
       <div class="hidden flex-none navbar-center lg:block">
         <ul class="menu menu-horizontal translate-x-1/2 z-10">
           <!-- Navbar menu content here -->
@@ -30,7 +30,7 @@
         </ul>
       </div>
       <div class="navbar-end">
-        <a href="https://calendly.com/fuller-liam07/cartshare-intro-demo-liam-fuller" class="btn bg-[#ff5470] hover:bg-[#ff5470]/80 outline-none border-none text-white cursor-pointer">Book a Call</a>
+        <a href="https://calendly.com/fuller-liam07/cartshare-intro-demo-liam-fuller" class="btn bg-[#ff5470] hover:bg-[#ff5470]/80 outline-none border-none text-white cursor-pointer hidden md:block">Book a Call</a>
       </div>
     </div>
 <slot />
@@ -43,9 +43,9 @@
         </nav>
     </footer>
   </div>
-  <div class="drawer-side">
+  <div class="drawer-side z-30">
     <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
-    <ul class="menu min-h-full w-80 p-4">
+    <ul class="menu min-h-full w-80 p-4 bg-gray-800">
       <!-- Sidebar content here -->
         <li><a>Home</a></li>
         <li><a>About Us</a></li>

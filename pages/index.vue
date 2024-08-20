@@ -38,7 +38,7 @@
             type="email"
           />
           <button
-            class="btn border-none bg-[#ff5470] hover:bg-[#ff5470]/80 text-white"
+            class="btn border-none bg-[#ff5470] hover:bg-[#ff5470]/80 text-white mt-4"
             type="submit"
           >
             Join The Waitlist
