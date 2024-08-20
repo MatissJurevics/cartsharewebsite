@@ -37,9 +37,9 @@
     <footer class="footer mx-32 my-8">
         <nav>
             <h6 class="footer-title">Pages</h6>
-            <a class="link link-hover" href="#">Home</a>
-            <a class="link link-hover" href="#">About Us</a>
-            <a class="link link-hover" href="#">Pricing</a>
+            <nuxt-link to="/" class="link link-hover">Home</nuxt-link>
+            <nuxt-link to="/about" class="link link-hover">About Us</nuxt-link>
+            <nuxt-link to="/pricing" class="link link-hover">Pricing</nuxt-link>
         </nav>
     </footer>
   </div>
@@ -47,9 +47,9 @@
     <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
     <ul class="menu min-h-full w-80 p-4 bg-gray-800">
       <!-- Sidebar content here -->
-        <li><a>Home</a></li>
-        <li><a>About Us</a></li>
-        <li><a>Pricing</a></li>
+      <li class="cursor-pointer"><nuxt-link to="/" class="cursor-pointer z-20">Home</nuxt-link></li>
+          <li><nuxt-link to="/about" class="cursor-pointer z-20">About Us</nuxt-link></li>
+          <li><nuxt-link to="/pricing" class="cursor-pointer z-20">Pricing</nuxt-link></li>
     </ul>
   </div>
 </div>
