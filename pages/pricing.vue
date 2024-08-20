@@ -19,7 +19,7 @@
           
         </div>
       </div>
-      <div class="card card-compact bg-gray-900 w-96 shadow-xl">
+      <div class="card card-compact bg-gray-900 w-full 'g:w-96 shadow-xl">
         
         <div class="card-body">
           <h2 class="card-title">Plus Tier</h2>
@@ -30,7 +30,7 @@
           
         </div>
       </div>
-      <div class="card card-compact bg-gray-900 w-96 shadow-xl">
+      <div class="card card-compact bg-gray-900 w-full 'g:w-96 shadow-xl">
         <div class="card-body">
           <h2 class="card-title">Premium</h2>
           <div class="divider"></div>

@@ -1,6 +1,6 @@
 <template>
 
-    <div class="drawer bg-[#0F0F21] text-white/60">
+    <div class="drawer bg-[#0F0F21] text-white/60 max-w-[100vw] overflow-hidden">
   <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
   <div class="drawer-content flex flex-col">
     <!-- Navbar -->
